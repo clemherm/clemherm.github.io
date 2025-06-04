@@ -12,7 +12,7 @@ title: Clément Herman
       <h1>Clément Herman</h1>
       <p>Doctoral Student in Economics<br>Princeton University</p>
       <p>Research interests: political economy, decision-making, behavioral economics.</p>
-      <p><a href="https://...ton-lien-vers-CV.pdf" target="_blank">Download CV</a></p>
+      <p><a href="https://https://drive.google.com/file/d/1Gekom_rW1KhPX_Iw3T6jO6h6VYKndLcB/view?usp=share_link" target="_blank">Download CV</a></p>
     </td>
   </tr>
 </table>
@@ -23,11 +23,10 @@ title: Clément Herman
 
 ### How Do Groups Search? An Experimental Study  
 *Working Paper, 2025*  
-We study how group structure and preference alignment shape collective search behavior in sequential decision tasks...
+Submitted
 
-### Second Project Title  
-*In preparation*  
-[Link coming soon]  
-This project explores...
+
+
+
 
 ---
