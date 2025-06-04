@@ -49,12 +49,16 @@ title: Clément Herman
   button {
     margin-top: 5px;
   }
+
+  .project {
+  margin-bottom: 40px;
+}
 </style>
 
 <div class="container">
 
   <div class="sidebar">
-    <img src="photo_clement.jpeg" alt="Photo de Clément Herman">
+    <img src="photo_clement.jpg" alt="Photo de Clément Herman">
     <a href="https://drive.google.com/file/d/1Gekom_rW1KhPX_Iw3T6jO6h6VYKndLcB/view?usp=share_link" target="_blank">📄 CV</a>
     <a href="mailto:cherman@princeton.edu">✉️ cherman@princeton.edu</a>
     <a href="https://bsky.app/profile/clemherm.bsky.social" target="_blank">🌐 Bluesky</a>
@@ -65,26 +69,34 @@ title: Clément Herman
 
     <h2>About me</h2>
     <p>
-      I am a Ph.D. candidate in Economics at Princeton University. My research explores how institutional structures and group dynamics shape decision-making in information-rich environments, with a focus on political economy and behavioral economics.
+      I am a Ph.D. candidate in Economics at Princeton University. I am a microeconomist with research interests in Behavioral Economics, Experimental Economics, and Political Economy.
     </p>
 
     <h2>Research</h2>
 
-    <h3><a href="https://drive.google.com/file/d/1y5wnjRmn4bTxqYAMbl-4sAGgy0OrtrPL/view?usp=share_link" target="_blank">How Do Groups Search? An Experimental Study</a></h3>
-    <em>Working Paper, 2025 · Submitted</em><br>
-    <button onclick="toggleAbstract('abs1')">Abstract</button>
-    <div class="abstract" id="abs1">
-      <p>
-        We study how group structure and preference alignment shape collective search behavior in sequential decision tasks.
-        Groups perform better than individuals when preferences are aligned and stopping requires unanimity, but underperform in misaligned contexts. Our results disentangle behavioral and aggregation effects.
-      </p>
-    </div>
+<div class="project">
+  <h3><a href="https://drive.google.com/file/d/1y5wnjRmn4bTxqYAMbl-4sAGgy0OrtrPL/view?usp=share_link" target="_blank">How Do Groups Search? An Experimental Study</a></h3>
+  <em>Working Paper, 2025 · Submitted</em><br>
+  <button onclick="toggleAbstract('abs1')">Abstract</button>
+  <div class="abstract" id="abs1">
+    <p>…abstract text…</p>
+  </div>
+</div>
 
-    <h3>Project Title 2</h3>
-    <em>In preparation</em>
+<div class="project">
+  <h3>Where to Search and When to Stop: A Lab Study</h3>
+  <p><strong>With:</strong> Alessandro Lizzeri, Leeat Yariv</p>
+  <em>In preparation</em>
+</div>
 
-    <h3>Project Title 3</h3>
-    <em>In preparation</em>
+
+
+<div class="project">
+  <h3></h3>
+  <p><strong>With:</strong> Alessandro Lizzeri, Leeat Yariv</p>
+  <em>In preparation</em>
+</div>
+
 
   </div>
 </div>
