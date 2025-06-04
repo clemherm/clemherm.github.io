@@ -4,6 +4,9 @@ title: Clément Herman
 ---
 
 <style>
+  body {
+  font-family: "Courier New", Courier, monospace;
+}
   .container {
     display: flex;
     flex-wrap: wrap;
@@ -75,7 +78,7 @@ title: Clément Herman
     <h2>Research</h2>
 
 <div class="project">
-  <h3><a href="https://drive.google.com/file/d/1y5wnjRmn4bTxqYAMbl-4sAGgy0OrtrPL/view?usp=share_link" target="_blank">How Do Groups Search? Experimental Evidencey</a></h3>
+  <h3><a href="https://drive.google.com/file/d/1y5wnjRmn4bTxqYAMbl-4sAGgy0OrtrPL/view?usp=share_link" target="_blank">How Do Groups Search? Experimental Evidence</a></h3>
   <em>Working Paper, 2025 · Submitted</em><br>
   <button onclick="toggleAbstract('abs1')">Abstract</button>
   <div class="abstract" id="abs1">
