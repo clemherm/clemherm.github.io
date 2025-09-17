@@ -68,7 +68,7 @@ title: Clément Herman
   </div>
 
   <div class="main-content">
-    <h1>Clément Herman</h1>
+    <h1><Welcome to Clément Herman's Website!</h1>
 
     <h2>About me</h2>
     <p>
