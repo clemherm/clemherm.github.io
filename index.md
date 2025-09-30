@@ -48,7 +48,7 @@ permalink: /
 
   <div class="main-content">
     <!-- SEO: put main keywords in H1 -->
-    <h1>Clément Herman — PhD Candidate in Economics (Princeton)</h1>
+    <h1>Clément Herman — PhD Candidate in Economics</h1>
 
     <h2 id="about">About me</h2>
     <p>
