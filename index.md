@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Clément Herman | PhD Candidate in Economics, Princeton"
+title: "Clément Herman"
 description: "Clément Herman — PhD candidate at Princeton. Behavioral & experimental economics, political economy. Research on collective (group) search, stopping rules, and decision-making."
 permalink: /
 ---
