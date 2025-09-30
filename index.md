@@ -42,13 +42,12 @@ permalink: /
     <div class="nav" aria-label="Section navigation">
       <a href="#about">About</a>
       <a href="#research">Research</a>
-      <a href="#contact">Contact</a>
     </div>
   </div>
 
   <div class="main-content">
     <!-- SEO: put main keywords in H1 -->
-    <h1>Clément Herman — PhD Candidate in Economics</h1>
+    <h1>Clément Herman — <br> PhD Candidate in Economics</h1>
 
     <h2 id="about">About me</h2>
     <p>
