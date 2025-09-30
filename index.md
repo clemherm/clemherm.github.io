@@ -56,7 +56,7 @@ permalink: /
       <strong>behavioral and experimental economics</strong> and <strong>political economy</strong>.
 <br> <br>
       I served as Lab Manager for the <a href="https://pexl.lab.run" target="_blank" rel="noopener">Princeton Experimental Laboratory for the Social Sciences (PExL)</a> in 2023–2024.
-Since 2024, I have been supported by the <a href="https://gradschool.princeton.edu/financial-support/fellowships/princeton-fellowships/prize-fellowship-social-sciences" target="_blank" rel="noopener">Prize Fellow in the Social Sciences</a> at Princeton University.
+Since 2024, I have been supported by the <a href="https://gradschool.princeton.edu/financial-support/fellowships/princeton-fellowships/prize-fellowship-social-sciences" target="_blank" rel="noopener">Prize Fellowship in the Social Sciences</a> at Princeton University.
     </p>
 
     <h2 id="research">Research</h2>
