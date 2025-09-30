@@ -96,9 +96,6 @@ Since 2024, I have been a <a href="https://gradschool.princeton.edu/financial-su
       </p>
       <em>In preparation</em>
     </div>
-
-    <h2 id="contact">Contact</h2>
-    <p>Email: <a href="mailto:cherman@princeton.edu">cherman@princeton.edu</a></p>
   </div>
 </div>
 
