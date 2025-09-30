@@ -15,7 +15,7 @@ permalink: /
     min-width: 200px; box-sizing: border-box; text-align: center;
   }
   .sidebar img {
-    border-radius: 50%; width: 140px; height: 140px; object-fit: cover;
+    border-radius: 50%; width: 240px; height: 240px; object-fit: cover;
     margin-bottom: 15px;
   }
   .sidebar a { display: block; margin: 8px 0; text-decoration: none; }
