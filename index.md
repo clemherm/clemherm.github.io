@@ -61,7 +61,7 @@ title: Clément Herman
 <div class="container">
 
   <div class="sidebar">
-    <img src="photo_clement.jpg" alt="Photo de Clément Herman">
+    <img src="photo_clement_edit.jpg" alt="Photo de Clément Herman">
     <a href="https://drive.google.com/file/d/1TrC1MCd6kxQlAt9jsvOpUZAS79TmcFaq/view?usp=share_link" target="_blank">📄 CV</a>
     <a href="mailto:cherman@princeton.edu">✉️ cherman@princeton.edu</a>
     <a href="https://bsky.app/profile/clemherm.bsky.social" target="_blank">🌐 Bluesky</a>
