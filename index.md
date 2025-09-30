@@ -68,7 +68,7 @@ title: Clément Herman
   </div>
 
   <div class="main-content">
-    <h1><Welcome to Clément Herman's Website!</h1>
+    <h1>Welcome to Clément Herman's Website!</h1>
 
     <h2>About me</h2>
     <p>
@@ -88,9 +88,34 @@ title: Clément Herman
 
 <div class="project">
   <h3>Where to Search and When to Stop: A Lab Study</h3>
-  <p><strong>With:</strong> Alessandro Lizzeri, Leeat Yariv</p>
+  <p>
+    <strong>With:</strong> 
+    <a href="https://sites.google.com/view/lizzeri" target="_blank" rel="noopener noreferrer">
+      Alessandro Lizzeri
+    </a>, 
+    <a href="https://www.lyariv.com" target="_blank" rel="noopener noreferrer">
+      Leeat Yariv
+    </a>
+  </p>
   <em>In preparation</em>
 </div>
+
+
+
+
+<div class="project">
+  <h3>
+    Communicating with Data-Generating Processes: An Experimental Analysis (Agata's JMP!)
+  </h3>
+  <p>
+    <strong>With:</strong> 
+    <a href="https://www.agatafarina.com" target="_blank" rel="noopener noreferrer">
+      Agata Farina
+    </a>
+  </p>
+  <em>In preparation</em>
+</div>
+
 
 
   </div>
