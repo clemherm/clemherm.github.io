@@ -84,7 +84,15 @@ Since 2024, I have been supported by the <a href="https://gradschool.princeton.e
         <a href="https://sites.google.com/view/lizzeri" target="_blank" rel="noopener">Alessandro Lizzeri</a>,
         <a href="https://www.lyariv.com" target="_blank" rel="noopener">Leeat Yariv</a>
       </p>
-      <em>In preparation</em>
+
+      <em>In preparation</em><br>
+      <!-- Accessibility: button controls & aria-expanded -->
+      <button type="button" aria-expanded="false" aria-controls="abs1" onclick="toggleAbstract('abs1', this)">
+        Abstract
+      </button>
+      <div class="abstract" id="abs1">
+        <p>In many real-life situations—such as searching for jobs, houses, or spouses—individuals must explore heterogeneous options sequentially before making a choice. This paper investigates how individuals search and when they stop searching in environments with heterogeneous alternatives. Drawing on Weitzman’s (1979) optimal search theory, we design a large-scale experiment that systematically explores a broad universe of search problems, in which participants face sequential search tasks involving costly inspections of alternatives (boxes) with varying reward distributions and search costs. While participants generally follow the direction of optimal search—favoring alternatives with higher expected value, lower cost, or greater variance—we document systematic deviations. These include pervasive undersearching, negative responses to variance in approximately one-third of participants, and menu-dependent behavior that violates the index-based predictions of Weitzman’s rule. Using structural modeling, we identify distinct behavioral types. We also show that specific combinations of box characteristics give rise to different search patterns, with more complex menus triggering greater departures from optimal behavior. Our findings highlight both the power and the limits of classical search theory in explaining actual search behavior.</p>
+      </div>
     </div>
 
     <div class="project">
