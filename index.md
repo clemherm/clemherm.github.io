@@ -21,7 +21,6 @@ permalink: /
   .sidebar a { display: block; margin: 8px 0; text-decoration: none; }
   .main-content { flex: 1 1 70%; padding: 20px; box-sizing: border-box; }
   h1 { margin-top: 0; }
-  .abstract { display: none; margin-top: 5px; }
   button { margin-top: 5px; }
   .project { margin-bottom: 40px; }
   .nav { margin: 10px 0 20px; }
@@ -70,17 +69,26 @@ permalink: /
   .abstract-toggle[aria-expanded="true"] svg{ transform: rotate(180deg); }
 
   /* ---------- Abstract panel with smooth expand ---------- */
-  .abstract[hidden]{ display:block; max-height:0; padding:0 0; overflow:hidden; }
-  .abstract{
-    background: var(--abstract-bg);
-    border:1px solid #eee;
-    border-radius:12px;
-    margin-top:10px;
-    padding:12px 14px;
-    line-height:1.45;
-    transition: max-height .25s ease, padding .2s ease, border-color .2s ease;
-    max-height: 1000px; /* large enough to fit content */
-  }
+.abstract[hidden]{
+  display:block;                 /* still block so height can animate */
+  max-height:0;
+  padding:0;
+  overflow:hidden;
+  border-color: transparent;
+}
+  
+.abstract{ 
+  display:block;                 /* <-- make it visible by default */
+  background: var(--abstract-bg);
+  border:1px solid #eee;
+  border-radius:12px;
+  margin-top:10px;
+  padding:12px 14px;
+  line-height:1.45;
+  transition: max-height .25s ease, padding .2s ease, border-color .2s ease;
+  max-height: 1000px;            /* large enough to fit content */
+}
+
 
   /* Respect reduced motion */
   @media (prefers-reduced-motion: reduce){
