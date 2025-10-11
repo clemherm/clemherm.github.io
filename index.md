@@ -26,7 +26,69 @@ permalink: /
   .project { margin-bottom: 40px; }
   .nav { margin: 10px 0 20px; }
   .nav a { margin-right: 12px; }
+
+  :root{
+    --accent:#111;             /* button text/icon */
+    --accent-bg:#f1f1f1;       /* button background */
+    --accent-bg-hover:#e7e7e7; /* hover */
+    --ring:#8ab4f8;            /* focus ring */
+    --abstract-bg:#fafafa;     /* abstract panel bg */
+  }
+
+  /* existing styles ... */
+  body { font-family: "Courier New", Courier, monospace; }
+  .container { display:flex; flex-wrap:wrap; max-width:1000px; margin:0 auto; }
+  .sidebar { flex:1 1 30%; padding:20px; background-color:#f5f5f5; min-width:200px; box-sizing:border-box; text-align:center; }
+  .sidebar img { border-radius:50%; width:240px; height:240px; object-fit:cover; margin-bottom:15px; }
+  .sidebar a { display:block; margin:8px 0; text-decoration:none; }
+  .main-content { flex:1 1 70%; padding:20px; box-sizing:border-box; }
+  h1 { margin-top:0; }
+  .project { margin-bottom:40px; }
+  .nav { margin:10px 0 20px; }
+  .nav a { margin-right:12px; }
+
+  /* ---------- Abstract toggle button ---------- */
+  .abstract-toggle{
+    --pad-y: 6px; --pad-x: 12px; --radius: 999px;
+    display:inline-flex; align-items:center; gap:8px;
+    padding: var(--pad-y) var(--pad-x);
+    border:1px solid #ddd; border-radius: var(--radius);
+    background: var(--accent-bg);
+    color: var(--accent); font-weight:600; letter-spacing:.2px;
+    cursor:pointer; user-select:none;
+    transition: background .15s ease, transform .06s ease;
+  }
+  .abstract-toggle:hover{ background: var(--accent-bg-hover); }
+  .abstract-toggle:active{ transform: translateY(1px); }
+  .abstract-toggle:focus-visible{
+    outline: 3px solid var(--ring);
+    outline-offset: 2px;
+  }
+
+  /* tiny chevron */
+  .abstract-toggle svg{ width:14px; height:14px; transition: transform .2s ease; }
+  .abstract-toggle[aria-expanded="true"] svg{ transform: rotate(180deg); }
+
+  /* ---------- Abstract panel with smooth expand ---------- */
+  .abstract[hidden]{ display:block; max-height:0; padding:0 0; overflow:hidden; }
+  .abstract{
+    background: var(--abstract-bg);
+    border:1px solid #eee;
+    border-radius:12px;
+    margin-top:10px;
+    padding:12px 14px;
+    line-height:1.45;
+    transition: max-height .25s ease, padding .2s ease, border-color .2s ease;
+    max-height: 1000px; /* large enough to fit content */
+  }
+
+  /* Respect reduced motion */
+  @media (prefers-reduced-motion: reduce){
+    .abstract{ transition:none; }
+    .abstract-toggle svg{ transition:none; }
+  }
 </style>
+
 
 <div class="container">
 
@@ -60,40 +122,53 @@ Since 2024, I have been supported by the <a href="https://gradschool.princeton.e
 
     <h2 id="research">Research</h2>
 
+
     <div class="project">
-      <h3>
-        <a href="https://drive.google.com/file/d/1y5wnjRmn4bTxqYAMbl-4sAGgy0OrtrPL/view?usp=share_link"
-           target="_blank" rel="noopener">
-          How Do Groups Search? Experimental Evidence
-        </a>
-      </h3>
-      <em>Working Paper, 2025 · Submitted</em><br>
-      <!-- Accessibility: button controls & aria-expanded -->
-      <button type="button" aria-expanded="false" aria-controls="abs1" onclick="toggleAbstract('abs1', this)">
-        Abstract
-      </button>
-      <div class="abstract" id="abs1">
+  <h3>
+    <a href="https://drive.google.com/file/d/1y5wnjRmn4bTxqYAMbl-4sAGgy0OrtrPL/view?usp=share_link"
+       target="_blank" rel="noopener">
+      How Do Groups Search? Experimental Evidence
+    </a>
+  </h3>
+  <em>Working Paper, 2025 · Submitted</em><br>
+
+  <!-- Button: nice pill with chevron -->
+  <button type="button"
+          class="abstract-toggle"
+          aria-expanded="false"
+          aria-controls="abs-groups"
+          onclick="toggleAbstract('abs-groups', this)">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15.5a1 1 0 0 1-.71-.29l-6-6a1 1 0 1 1 1.42-1.42L12 12.38l5.29-4.59a1 1 0 1 1 1.42 1.42l-6 6a1 1 0 0 1-.71.29z"/></svg>
+    <span>Show abstract</span>
+  </button>
+
+  <div class="abstract" id="abs-groups" hidden>
         <p>Searching for a suitable alternative—whether in research teams, hiring committees, or households—is often a collective process, combining the trade-offs of individual search with the challenges of group decision-making. We study collective search in laboratory experiments, where groups of participants sequentially sample alternatives. We vary the stopping-decision rule and the alignment of group members’ preferences, and compare group behavior to that of individuals under otherwise identical conditions. Several patterns emerge. While individuals tend to undersearch, groups examine more alternatives, particularly when unanimity is required to stop. When preferences are aligned, group search generates beneficial effects: participants raise their standards, and low-value alternatives are more likely to be rejected. When preferences are misaligned, however, group search generates detrimental effects: high-value alternatives are often rejected, and participants adopt lower standards. These findings reveal a new channel, the sequential exploration of alternatives, through which groups can outperform or underperform individual decision-making.</p>
-      </div>
     </div>
+</div>
 
-    <div class="project">
-      <h3>Where to Search and When to Stop: A Lab Study</h3>
-      <p>
-        <strong>With:</strong>
-        <a href="https://sites.google.com/view/lizzeri" target="_blank" rel="noopener">Alessandro Lizzeri</a>,
-        <a href="https://www.lyariv.com" target="_blank" rel="noopener">Leeat Yariv</a>
-      </p>
+<div class="project">
+  <h3>Where to Search and When to Stop: A Lab Study</h3>
+  <p>
+    <strong>With:</strong>
+    <a href="https://sites.google.com/view/lizzeri" target="_blank" rel="noopener">Alessandro Lizzeri</a>,
+    <a href="https://www.lyariv.com" target="_blank" rel="noopener">Leeat Yariv</a>
+  </p>
+  <em>In preparation</em><br>
 
-      <em>In preparation</em><br>
-      <!-- Accessibility: button controls & aria-expanded -->
-      <button type="button" aria-expanded="false" aria-controls="abs1" onclick="toggleAbstract('abs1', this)">
-        Abstract
-      </button>
-      <div class="abstract" id="abs1">
+  <button type="button"
+          class="abstract-toggle"
+          aria-expanded="false"
+          aria-controls="abs-where"
+          onclick="toggleAbstract('abs-where', this)">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15.5a1 1 0 0 1-.71-.29l-6-6a1 1 0 1 1 1.42-1.42L12 12.38l5.29-4.59a1 1 0 1 1 1.42 1.42l-6 6a1 1 0 0 1-.71.29z"/></svg>
+    <span>Show abstract</span>
+  </button>
+
+  <div class="abstract" id="abs-where" hidden>
         <p>In many real-life situations—such as searching for jobs, houses, or spouses—individuals must explore heterogeneous options sequentially before making a choice. This paper investigates how individuals search and when they stop searching in environments with heterogeneous alternatives. Drawing on Weitzman’s (1979) optimal search theory, we design a large-scale experiment that systematically explores a broad universe of search problems, in which participants face sequential search tasks involving costly inspections of alternatives (boxes) with varying reward distributions and search costs. While participants generally follow the direction of optimal search—favoring alternatives with higher expected value, lower cost, or greater variance—we document systematic deviations. These include pervasive undersearching, negative responses to variance in approximately one-third of participants, and menu-dependent behavior that violates the index-based predictions of Weitzman’s rule. Using structural modeling, we identify distinct behavioral types. We also show that specific combinations of box characteristics give rise to different search patterns, with more complex menus triggering greater departures from optimal behavior. Our findings highlight both the power and the limits of classical search theory in explaining actual search behavior.</p>
-      </div>
-    </div>
+  </div>
+</div>
 
     <div class="project">
       <h3>Communicating with Data-Generating Processes: An Experimental Analysis (Agata's JMP!)</h3>
@@ -107,11 +182,37 @@ Since 2024, I have been supported by the <a href="https://gradschool.princeton.e
 </div>
 
 <script>
-function toggleAbstract(id, btn) {
-  var x = document.getElementById(id);
-  var isHidden = (x.style.display === "none" || x.style.display === "");
-  x.style.display = isHidden ? "block" : "none";
-  if (btn) btn.setAttribute("aria-expanded", isHidden ? "true" : "false");
+function toggleAbstract(id, btn){
+  const panel = document.getElementById(id);
+  const expanded = btn.getAttribute('aria-expanded') === 'true';
+  btn.setAttribute('aria-expanded', String(!expanded));
+  const label = btn.querySelector('span');
+  if(label) label.textContent = expanded ? 'Show abstract' : 'Hide abstract';
+
+  // animate via [hidden] toggle (CSS handles transitions)
+  if(expanded){
+    // closing
+    panel.style.maxHeight = panel.scrollHeight + 'px'; // set current height to enable transition
+    requestAnimationFrame(()=>{ 
+      panel.setAttribute('hidden','');
+      panel.style.maxHeight = null;
+    });
+  } else {
+    // opening
+    panel.removeAttribute('hidden');
+    const target = panel.scrollHeight;
+    panel.style.maxHeight = '0px';
+    requestAnimationFrame(()=>{
+      panel.style.maxHeight = target + 'px';
+      // cleanup after transition
+      panel.addEventListener('transitionend', function tidy(e){
+        if(e.propertyName === 'max-height'){
+          panel.style.maxHeight = null;
+          panel.removeEventListener('transitionend', tidy);
+        }
+      });
+    });
+  }
 }
 </script>
 
