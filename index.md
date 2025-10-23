@@ -178,14 +178,31 @@ Since 2024, I have been supported by the <a href="https://gradschool.princeton.e
   </div>
 </div>
 
-    <div class="project">
+
+
+<div class="project">
       <h3>Communicating with Data-Generating Processes: An Experimental Analysis (Agata's JMP!)</h3>
-      <p>
+  <p>
         <strong>With:</strong>
         <a href="https://www.agatafarina.com" target="_blank" rel="noopener">Agata Farina</a>
-      </p>
-      <em>In preparation</em>
-    </div>
+  </p>
+  <em>In preparation</em><br>
+
+  <button type="button"
+          class="abstract-toggle"
+          aria-expanded="false"
+          aria-controls="abs-where"
+          onclick="toggleAbstract('abs-where', this)">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15.5a1 1 0 0 1-.71-.29l-6-6a1 1 0 1 1 1.42-1.42L12 12.38l5.29-4.59a1 1 0 1 1 1.42 1.42l-6 6a1 1 0 0 1-.71.29z"/></svg>
+    <span>Show abstract</span>
+  </button>
+
+  <div class="abstract" id="abs-where" hidden>
+        <p>In many applications, agents can influence how data are generated but cannot manipulate the data themselves. For example, students choose which classes to take but cannot alter their grades, and firms decide on internal accounting practices but cannot change the resulting financial statements. This paper experimentally studies information transmission when data are generated through an unobservable, strategically chosen process. We focus on settings where an informed sender—such as a student or a firm—privately selects a data-generating process (DGP)—a portfolio of classes or an accounting practice—to shape the beliefs of an uninformed receiver, such as an employer or an investor. Across treatments, we vary which DGPs are feasible and whether some come at a cost. These variations span different levels of information verifiability and allow us to capture, within a unified framework, the core insights of disclosure, cheap-talk, and signaling models. Our findings reveal three main patterns. First, while senders select their DGPs strategically in line with theoretical predictions, receivers often fail to account for this strategic selection. Second, introducing differential costs across feasible DGPs mitigates this "DGP selection neglect." Third, while receivers’ biases are robust across environments, their consequences vary: information transmission falters most when the evidence receivers observe is highly sensitive to the sender’s DGP choices. Finally, increasing transparency about the selected DGP—a policy often advocated in practice—does not, in general, improve information transmission.</p>
+  </div>
+</div>
+
+
   </div>
 </div>
 
