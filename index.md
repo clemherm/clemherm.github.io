@@ -157,7 +157,7 @@ permalink: /
         <strong>With:</strong>
         <a href="https://www.agatafarina.com" target="_blank" rel="noopener">Agata Farina</a>
       </p>
-      <em>In preparation</em><br>
+      <em>Draft available!</em><br>
 
       <button type="button"
               class="abstract-toggle"
