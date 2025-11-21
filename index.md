@@ -122,30 +122,8 @@ permalink: /
       </div>
     </div>
 
-    <div class="project">
-      <h3>Where to Search and When to Stop: A Lab Study</h3>
-      <p>
-        <strong>With:</strong>
-        <a href="https://sites.google.com/view/lizzeri" target="_blank" rel="noopener">Alessandro Lizzeri</a>,
-        <a href="https://www.lyariv.com" target="_blank" rel="noopener">Leeat Yariv</a>
-      </p>
-      <em>In preparation</em><br>
 
-      <button type="button"
-              class="abstract-toggle"
-              aria-expanded="false"
-              aria-controls="abs-where"
-              onclick="toggleAbstract('abs-where', this)">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15.5a1 1 0 0 1-.71-.29l-6-6a1 1 0 1 1 1.42-1.42L12 12.38l5.29-4.59a1 1 0 1 1 1.42 1.42l-6 6a1 1 0 0 1-.71.29z"/></svg>
-        <span>Show abstract</span>
-      </button>
-
-      <div class="abstract" id="abs-where" hidden>
-        <p>In many real-life situations—such as searching for jobs, houses, or spouses—individuals must explore heterogeneous options sequentially before making a choice. This paper investigates how individuals search and when they stop searching in environments with heterogeneous alternatives. Drawing on Weitzman’s (1979) optimal search theory, we design a large-scale experiment that systematically explores a broad universe of search problems, in which participants face sequential search tasks involving costly inspections of alternatives (boxes) with varying reward distributions and search costs. While participants generally follow the direction of optimal search—favoring alternatives with higher expected value, lower cost, or greater variance—we document systematic deviations. These include pervasive undersearching, negative responses to variance in approximately one-third of participants, and menu-dependent behavior that violates the index-based predictions of Weitzman’s rule. Using structural modeling, we identify distinct behavioral types. We also show that specific combinations of box characteristics give rise to different search patterns, with more complex menus triggering greater departures from optimal behavior. Our findings highlight both the power and the limits of classical search theory in explaining actual search behavior.</p>
-      </div>
-    </div>
-
-    <div class="project">
+        <div class="project">
       <h3>        <a href="https://drive.google.com/file/d/1IHxUsEYY6GrKq6VCnENFPaqMZ7Wx2E0E/view?usp=share_link"
            target="_blank" rel="noopener">
           Communicating with Data-Generating Processes: An Experimental Analysis
@@ -172,6 +150,31 @@ permalink: /
         <p>In many applications, agents can influence how data are generated but cannot manipulate the data themselves. For example, students choose which classes to take but cannot alter their grades, and firms decide on internal accounting practices but cannot change the resulting financial statements. This paper experimentally studies information transmission when data are generated through an unobservable, strategically chosen process. We focus on settings where an informed sender—such as a student or a firm—privately selects a data-generating process (DGP)—a portfolio of classes or an accounting practice—to shape the beliefs of an uninformed receiver, such as an employer or an investor. Across treatments, we vary which DGPs are feasible and whether some come at a cost. These variations span different levels of information verifiability and allow us to capture, within a unified framework, the core insights of disclosure, cheap-talk, and signaling models. Our findings reveal three main patterns. First, while senders select their DGPs strategically in line with theoretical predictions, receivers often fail to account for this strategic selection. Second, introducing differential costs across feasible DGPs mitigates this "DGP selection neglect." Third, while receivers’ biases are robust across environments, their consequences vary: information transmission falters most when the evidence receivers observe is highly sensitive to the sender’s DGP choices. Finally, increasing transparency about the selected DGP—a policy often advocated in practice—does not, in general, improve information transmission.</p>
       </div>
     </div>
+
+    <div class="project">
+      <h3>Where to Search and When to Stop: A Lab Study</h3>
+      <p>
+        <strong>With:</strong>
+        <a href="https://sites.google.com/view/lizzeri" target="_blank" rel="noopener">Alessandro Lizzeri</a>,
+        <a href="https://www.lyariv.com" target="_blank" rel="noopener">Leeat Yariv</a>
+      </p>
+      <em>In preparation</em><br>
+
+      <button type="button"
+              class="abstract-toggle"
+              aria-expanded="false"
+              aria-controls="abs-where"
+              onclick="toggleAbstract('abs-where', this)">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15.5a1 1 0 0 1-.71-.29l-6-6a1 1 0 1 1 1.42-1.42L12 12.38l5.29-4.59a1 1 0 1 1 1.42 1.42l-6 6a1 1 0 0 1-.71.29z"/></svg>
+        <span>Show abstract</span>
+      </button>
+
+      <div class="abstract" id="abs-where" hidden>
+        <p>In many real-life situations—such as searching for jobs, houses, or spouses—individuals must explore heterogeneous options sequentially before making a choice. This paper investigates how individuals search and when they stop searching in environments with heterogeneous alternatives. Drawing on Weitzman’s (1979) optimal search theory, we design a large-scale experiment that systematically explores a broad universe of search problems, in which participants face sequential search tasks involving costly inspections of alternatives (boxes) with varying reward distributions and search costs. While participants generally follow the direction of optimal search—favoring alternatives with higher expected value, lower cost, or greater variance—we document systematic deviations. These include pervasive undersearching, negative responses to variance in approximately one-third of participants, and menu-dependent behavior that violates the index-based predictions of Weitzman’s rule. Using structural modeling, we identify distinct behavioral types. We also show that specific combinations of box characteristics give rise to different search patterns, with more complex menus triggering greater departures from optimal behavior. Our findings highlight both the power and the limits of classical search theory in explaining actual search behavior.</p>
+      </div>
+    </div>
+
+
 
   </div>
 </div>
