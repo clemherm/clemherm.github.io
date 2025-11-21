@@ -103,7 +103,7 @@ permalink: /
       <h3>
         <a href="https://drive.google.com/file/d/1y5wnjRmn4bTxqYAMbl-4sAGgy0OrtrPL/view?usp=share_link"
            target="_blank" rel="noopener">
-          How Do Groups Search? Experimental Evidence
+          Searching Alone or Together? Evidence from the Lab
         </a>
       </h3>
       <em>Working Paper, 2025 · Submitted</em><br>
@@ -118,7 +118,7 @@ permalink: /
       </button>
 
       <div class="abstract" id="abs-groups" hidden>
-        <p>Searching for a suitable alternative—whether in research teams, hiring committees, or households—is often a collective process, combining the trade-offs of individual search with the challenges of group decision-making. We study collective search in laboratory experiments, where groups of participants sequentially sample alternatives. We vary the stopping-decision rule and the alignment of group members’ preferences, and compare group behavior to that of individuals under otherwise identical conditions. Several patterns emerge. While individuals tend to undersearch, groups examine more alternatives, particularly when unanimity is required to stop. When preferences are aligned, group search generates beneficial effects: participants raise their standards, and low-value alternatives are more likely to be rejected. When preferences are misaligned, however, group search generates detrimental effects: high-value alternatives are often rejected, and participants adopt lower standards. These findings reveal a new channel, the sequential exploration of alternatives, through which groups can outperform or underperform individual decision-making.</p>
+        <p>Groups, not just individuals, carry out search over candidates, products, and projects, yet standard approaches treat search as an individual activity. In laboratory experiments, we study groups that sequentially sample alternatives, varying stopping-decision rules and the alignment of group members' preferences, and compare them to individuals under identical conditions. Individuals undersearch, whereas groups systematically examine more alternatives, especially under stricter stopping rules. With aligned preferences, longer group search improves outcomes by raising reservation thresholds and smoothing variability in strategies, thereby increasing the rejection of low-value alternatives. With misaligned preferences, it has detrimental effects: high-value alternatives are rejected more often because agreement is harder to reach, even though participants lower their standards. The paper thus identifies sequential exploration (rather than deliberation or information aggregation) as a novel mechanism explaining why groups outperform or underperform individuals, and challenges modeling group search as if a single “unitary” decision maker were at work.</p>
       </div>
     </div>
 
