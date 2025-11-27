@@ -74,7 +74,7 @@ permalink: /
 <div class="container">
 
   <div class="sidebar">
-    <img src="photo_clement_edit.png" alt="Portrait of Clément Herman" loading="lazy" width="140" height="140">
+    <img src="photo_clement2.jpeg" alt="Portrait of Clément Herman" loading="lazy" width="140" height="140">
     <a href="https://drive.google.com/file/d/1TrC1MCd6kxQlAt9jsvOpUZAS79TmcFaq/view?usp=share_link" target="_blank" rel="noopener">📄 CV</a>
     <a href="mailto:cherman@princeton.edu">✉️ cherman@princeton.edu</a>
     <a href="https://bsky.app/profile/clemherm.bsky.social" target="_blank" rel="me noopener">🌐 Bluesky</a>
