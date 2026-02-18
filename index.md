@@ -106,7 +106,7 @@ permalink: /
           Searching Alone or Together? Evidence from the Lab
         </a>
       </h3>
-      <em>Working Paper, 2025 · Submitted</em><br>
+      <em>Working Paper, 2025 · Under Revision at Quantitative Economics</em><br>
 
       <button type="button"
               class="abstract-toggle"
