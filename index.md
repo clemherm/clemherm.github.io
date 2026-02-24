@@ -97,7 +97,7 @@ permalink: /
       Since 2024, I have been supported by the <a href="https://gradschool.princeton.edu/financial-support/fellowships/princeton-fellowships/prize-fellowship-social-sciences" target="_blank" rel="noopener">Prize Fellowship in the Social Sciences</a> at Princeton University.
     </p>
 
-    <h2 id="research">Research</h2>
+    <h2 id="research">Working Papers</h2>
 
     <div class="project">
       <h3>
@@ -106,7 +106,7 @@ permalink: /
           Searching Alone or Together? Evidence from the Lab
         </a>
       </h3>
-      <em>Under Revision at Quantitative Economics</em><br>
+      <em>Revise & Resubmit at Quantitative Economics</em><br>
 
       <button type="button"
               class="abstract-toggle"
@@ -150,6 +150,9 @@ permalink: /
         <p>In many applications, agents can influence how data are generated but cannot manipulate the data themselves. For example, students choose which classes to take but cannot alter their grades, and firms decide on internal accounting practices but cannot change the resulting financial statements. This paper experimentally studies information transmission when data are generated through an unobservable, strategically chosen process. We focus on settings where an informed sender—such as a student or a firm—privately selects a data-generating process (DGP)—a portfolio of classes or an accounting practice—to shape the beliefs of an uninformed receiver, such as an employer or an investor. Across treatments, we vary which DGPs are feasible and whether some come at a cost. These variations span different levels of information verifiability and allow us to capture, within a unified framework, the core insights of disclosure, cheap-talk, and signaling models. Our findings reveal three main patterns. First, while senders select their DGPs strategically in line with theoretical predictions, receivers often fail to account for this strategic selection. Second, introducing differential costs across feasible DGPs mitigates this "DGP selection neglect." Third, while receivers’ biases are robust across environments, their consequences vary: information transmission falters most when the evidence receivers observe is highly sensitive to the sender’s DGP choices. Finally, increasing transparency about the selected DGP—a policy often advocated in practice—does not, in general, improve information transmission.</p>
       </div>
     </div>
+
+
+    <h2 id="research">In Progress</h2>
 
     <div class="project">
       <h3>Where to Search and When to Stop: A Lab Study</h3>
