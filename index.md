@@ -97,6 +97,9 @@ permalink: /
       Since 2024, I have been supported by the <a href="https://gradschool.princeton.edu/financial-support/fellowships/princeton-fellowships/prize-fellowship-social-sciences" target="_blank" rel="noopener">Prize Fellowship in the Social Sciences</a> at Princeton University.
     </p>
 
+    <p>In October 2026, I will join Caltech as a postdoctoral scholar.
+    </p>
+
     <h2 id="research">Working Papers</h2>
 
     <div class="project">
