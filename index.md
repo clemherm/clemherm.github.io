@@ -130,7 +130,7 @@ permalink: /
       <h3>        <a href="https://drive.google.com/file/d/1IHxUsEYY6GrKq6VCnENFPaqMZ7Wx2E0E/view?usp=share_link"
            target="_blank" rel="noopener">
           Communicating with Data-Generating Processes: An Experimental Analysis
-        </a> (Agata's JMP!)
+        </a>
       
       
       </h3>
