@@ -14,7 +14,7 @@ permalink: /
     --abstract-bg:#fafafa;     /* abstract panel bg */
   }
 
-  body { font-family: "Courier New", Courier, monospace; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
   .container { display:flex; flex-wrap:wrap; max-width:1000px; margin:0 auto; }
   .sidebar { flex:1 1 30%; padding:20px; background-color:#f5f5f5; min-width:200px; box-sizing:border-box; text-align:center; }
   .sidebar img { border-radius:50%; width:240px; height:240px; object-fit:cover; margin-bottom:15px; }
@@ -183,7 +183,7 @@ permalink: /
 
 
         <div class="project">
-      <h3>Small datasets as mental models</h3>
+      <h3>Small Datasets as Mental Models</h3>
       <em>Slides available upon request</em><br>
 
       <button type="button"
