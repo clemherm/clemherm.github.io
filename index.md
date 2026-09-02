@@ -179,6 +179,26 @@ permalink: /
 
 
 
+        <div class="project">
+      <h3>Small datasets as mental models</h3>
+      <em>Slides available upon request</em><br>
+
+      <button type="button"
+              class="abstract-toggle"
+              aria-expanded="false"
+              aria-controls="abs-where"
+              onclick="toggleAbstract('abs-where', this)">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15.5a1 1 0 0 1-.71-.29l-6-6a1 1 0 1 1 1.42-1.42L12 12.38l5.29-4.59a1 1 0 1 1 1.42 1.42l-6 6a1 1 0 0 1-.71.29z"/></svg>
+        <span>Show abstract</span>
+      </button>
+
+      <div class="abstract" id="abs-where" hidden>
+        <p>How do people form beliefs about environments too rich to hold in memory? This paper develops and tests a framework in which decision-makers reduce large datasets to a small set of representative "cases"—a mental model—from which beliefs are then formed. In a lab experiment, participants view datasets of 12 items with 3 attributes each, construct 1–3 "guessing aids" summarizing what they observed, and later use only these aids to predict a hidden attribute value for unseen items. Comparing behavior to an optimal clustering (k-medians) benchmark, case selection largely tracks coverage as clustering predicts, but participants over-rely on literally observed and duplicated cases. Predictions track the nearest retained case, but moderates away from distant or extreme values. These deviations do not overturn the clustering benchmark's qualitative predictions about which datasets and statistics are well versus poorly recovered—they exacerbate them, producing worse accuracy for noisy datasets, outliers, extreme values, and higher-order statistical relationships like conditional correlations.</p>
+      </div>
+    </div>
+
+
+
   </div>
 </div>
 
