@@ -5,6 +5,10 @@ description: "Clément Herman — PhD candidate at Princeton. Behavioral & exper
 permalink: /
 ---
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
 <style>
   :root{
     --accent:#111;             /* button text/icon */
@@ -12,15 +16,30 @@ permalink: /
     --accent-bg-hover:#e7e7e7; /* hover */
     --ring:#8ab4f8;            /* focus ring */
     --abstract-bg:#fafafa;     /* abstract panel bg */
+    --font-heading: "Fraunces", Georgia, serif;
+    --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   }
 
-body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  body {
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.6;
+    color: #1a1a1a;
+  }
+
+  h1, h2, h3 {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+
+  h1 { font-weight: 700; }
+
   .container { display:flex; flex-wrap:wrap; max-width:1000px; margin:0 auto; }
   .sidebar { flex:1 1 30%; padding:20px; background-color:#f5f5f5; min-width:200px; box-sizing:border-box; text-align:center; }
   .sidebar img { border-radius:50%; width:240px; height:240px; object-fit:cover; margin-bottom:15px; }
-  .sidebar a { display:block; margin:8px 0; text-decoration:none; }
+  .sidebar a { display:block; margin:8px 0; text-decoration:none; font-family: var(--font-body); }
   .main-content { flex:1 1 70%; padding:20px; box-sizing:border-box; }
-  h1 { margin-top:0; }
   .project { margin-bottom:40px; }
   .nav { margin:10px 0 20px; }
   .nav a { margin-right:12px; }
@@ -33,6 +52,8 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helve
     border:1px solid #ddd; border-radius: var(--radius);
     background: var(--accent-bg);
     color: var(--accent); font-weight:600; letter-spacing:.2px;
+    font-family: var(--font-body);
+    font-size: 14px;
     cursor:pointer; user-select:none;
     transition: background .15s ease, transform .06s ease;
   }
@@ -60,7 +81,8 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helve
     border-radius:12px;
     margin-top:10px;
     padding:12px 14px;
-    line-height:1.45;
+    line-height:1.55;
+    font-family: var(--font-body);
     transition: max-height .25s ease, padding .2s ease, border-color .2s ease;
     max-height: 1000px;          /* sufficiently large */
   }
