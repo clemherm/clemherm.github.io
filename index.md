@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Clément Herman"
-description: "Clément Herman — PhD candidate at Princeton. Behavioral & experimental economics, political economy. Research on collective (group) search, stopping rules, and decision-making."
+description: "Clément Herman — Postdoctoral Scholar at Caltech. Behavioral & experimental economics, political economy. Research on collective (group) search, stopping rules, and decision-making."
 permalink: /
 ---
 
@@ -96,7 +96,7 @@ permalink: /
 <div class="container">
 
   <div class="sidebar">
-    <img src="photo_clement2.jpeg" alt="Portrait of Clément Herman" loading="lazy" width="140" height="140">
+    <img src="me.jpg" alt="Portrait of Clément Herman" loading="lazy" width="140" height="140">
     <a href="https://drive.google.com/file/d/1TrC1MCd6kxQlAt9jsvOpUZAS79TmcFaq/view?usp=share_link" target="_blank" rel="noopener">📄 CV</a>
     <a href="mailto:cherman@princeton.edu">✉️ cherman@princeton.edu</a>
     <a href="https://bsky.app/profile/clemherm.bsky.social" target="_blank" rel="me noopener">🌐 Bluesky</a>
@@ -108,18 +108,15 @@ permalink: /
   </div>
 
   <div class="main-content">
-    <h1>Clément Herman — <br> PhD Candidate in Economics</h1>
+    <h1>Clément Herman — <br> Postdoctoral Scholar in Economics</h1>
 
     <h2 id="about">About me</h2>
     <p>
-      I am a Ph.D. candidate in Economics at Princeton University. My research spans
+      I am a postdoctoral scholar at <b>Caltech</b>. I received my Ph.D. in Economics from
+      Princeton University. My research spans
       <strong>behavioral and experimental economics</strong> and <strong>political economy</strong>.
       <br><br>
-      I served as Lab Manager for the <a href="https://pexl.lab.run" target="_blank" rel="noopener">Princeton Experimental Laboratory for the Social Sciences (PExL)</a> in 2023–2024.
-      Since 2024, I have been supported by the <a href="https://gradschool.princeton.edu/financial-support/fellowships/princeton-fellowships/prize-fellowship-social-sciences" target="_blank" rel="noopener">Prize Fellowship in the Social Sciences</a> at Princeton University.
-    </p>
-
-    <p>In October 2026, I will join <b>Caltech</b> as a <b>postdoctoral scholar</b>.
+      During my Ph.D., I served as Lab Manager for the <a href="https://pexl.lab.run" target="_blank" rel="noopener">Princeton Experimental Laboratory for the Social Sciences (PExL)</a> in 2023–2024.
     </p>
 
     <h2 id="research">Working Papers</h2>
@@ -131,7 +128,7 @@ permalink: /
           Searching Alone or Together? Evidence from the Lab
         </a>
       </h3>
-      <em>Revise & Resubmit at Quantitative Economics</em><br>
+      <em>Revise & Resubmit (second round) at Quantitative Economics</em><br>
 
       <button type="button"
               class="abstract-toggle"
@@ -148,13 +145,12 @@ permalink: /
     </div>
 
 
-        <div class="project">
-      <h3>        <a href="https://drive.google.com/file/d/1IHxUsEYY6GrKq6VCnENFPaqMZ7Wx2E0E/view?usp=share_link"
+    <div class="project">
+      <h3>
+        <a href="https://drive.google.com/file/d/1IHxUsEYY6GrKq6VCnENFPaqMZ7Wx2E0E/view?usp=share_link"
            target="_blank" rel="noopener">
           Communicating with Data-Generating Processes: An Experimental Analysis
         </a>
-      
-      
       </h3>
       <p>
         <strong>With:</strong>
@@ -177,7 +173,7 @@ permalink: /
     </div>
 
 
-    <h2 id="research">In Progress</h2>
+    <h2 id="in-progress">In Progress</h2>
 
     <div class="project">
       <h3>Where to Search and When to Stop: A Lab Study</h3>
@@ -203,8 +199,7 @@ permalink: /
     </div>
 
 
-
-        <div class="project">
+    <div class="project">
       <h3>Small Datasets as Mental Models</h3>
       <em>Slides available upon request</em><br>
 
@@ -221,8 +216,6 @@ permalink: /
         <p>How do people form beliefs about environments too rich to hold in memory? This paper develops and tests a framework in which decision-makers reduce large datasets to a small set of representative "cases"—a mental model—from which beliefs are then formed. In a lab experiment, participants view datasets of 12 items with 3 attributes each, construct 1–3 "guessing aids" summarizing what they observed, and later use only these aids to predict a hidden attribute value for unseen items. Comparing behavior to an optimal clustering (k-medians) benchmark, case selection largely tracks coverage as clustering predicts, but participants over-rely on literally observed and duplicated cases. Predictions track the nearest retained case, but moderates away from distant or extreme values. These deviations do not overturn the clustering benchmark's qualitative predictions about which datasets and statistics are well versus poorly recovered—they exacerbate them, producing worse accuracy for noisy datasets, outliers, extreme values, and higher-order statistical relationships like conditional correlations.</p>
       </div>
     </div>
-
-
 
   </div>
 </div>
@@ -268,8 +261,12 @@ function toggleAbstract(id, btn){
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Clément Herman",
-  "jobTitle": "PhD Candidate in Economics",
+  "jobTitle": "Postdoctoral Scholar in Economics",
   "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "California Institute of Technology"
+  },
+  "alumniOf": {
     "@type": "CollegeOrUniversity",
     "name": "Princeton University"
   },
@@ -286,7 +283,7 @@ function toggleAbstract(id, btn){
 {
   "@context": "https://schema.org",
   "@type": "ScholarlyArticle",
-  "name": "How Do Groups Search? Experimental Evidence",
+  "name": "Searching Alone or Together? Evidence from the Lab",
   "author": {
     "@type": "Person",
     "name": "Clément Herman"
