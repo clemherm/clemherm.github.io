@@ -130,7 +130,7 @@ permalink: /
 
   <div class="sidebar">
     <img src="me.jpg" alt="Portrait of Clément Herman" loading="lazy" width="140" height="140">
-    <a href="https://drive.google.com/file/d/1TrC1MCd6kxQlAt9jsvOpUZAS79TmcFaq/view?usp=share_link" target="_blank" rel="noopener">📄 CV</a>
+    <a href="https://drive.google.com/file/d/1n9SVWWz78yYLRyZEqW4RERiieSgUhxBB/view?usp=share_link" target="_blank" rel="noopener">📄 CV</a>
     <a href="mailto:cherman@caltech.edu">✉️ cherman@caltech.edu</a>
     <a href="https://scholar.google.com/citations?user=9imfc4YAAAAJ" target="_blank" rel="me noopener">🎓 Google Scholar</a>
     <a href="https://bsky.app/profile/clemherm.bsky.social" target="_blank" rel="me noopener">🌐 Bluesky</a>
