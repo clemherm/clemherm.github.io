@@ -60,6 +60,13 @@ permalink: /
   .tabs a[aria-selected="true"] { color:#111; font-weight:600; border-bottom-color:#111; }
   .tabs a:focus-visible { outline:3px solid var(--ring); outline-offset:2px; border-radius:4px; }
 
+  /* Override any theme styling so the tab content lines up with the heading */
+  .main-content .tab-panel {
+    float:none; width:auto; max-width:none;
+    margin:0; padding:0;
+    text-align:left;
+  }
+
   /* Only hide inactive tabs once the script has run; without JS everything shows. */
   .js .tab-panel:not(.active) { display:none; }
 
@@ -125,20 +132,21 @@ permalink: /
     <img src="me.jpg" alt="Portrait of Clément Herman" loading="lazy" width="140" height="140">
     <a href="https://drive.google.com/file/d/1TrC1MCd6kxQlAt9jsvOpUZAS79TmcFaq/view?usp=share_link" target="_blank" rel="noopener">📄 CV</a>
     <a href="mailto:cherman@princeton.edu">✉️ cherman@princeton.edu</a>
+    <a href="https://scholar.google.com/citations?user=9imfc4YAAAAJ" target="_blank" rel="me noopener">🎓 Google Scholar</a>
     <a href="https://bsky.app/profile/clemherm.bsky.social" target="_blank" rel="me noopener">🌐 Bluesky</a>
   </div>
 
   <div class="main-content">
     <h1>Clément Herman — <br> Postdoctoral Scholar in Economics</h1>
 
-    <!-- To add a tab: add a link here (href="#name") and a matching <section id="name" class="tab-panel"> below. -->
-    <nav class="tabs" role="tablist" aria-label="Sections">
+    <!-- To add a tab: add a link here (href="#name") and a matching <div id="name" class="tab-panel"> below. -->
+    <div class="tabs" role="tablist" aria-label="Sections">
       <a href="#home" role="tab" aria-controls="home">Home</a>
       <a href="#research" role="tab" aria-controls="research">Research</a>
-    </nav>
+    </div>
 
     <!-- ================= HOME TAB ================= -->
-    <section id="home" class="tab-panel" role="tabpanel">
+    <div id="home" class="tab-panel" role="tabpanel">
       <h2>About me</h2>
       <p>
         I am a postdoctoral scholar at <b>Caltech</b>. I received my Ph.D. in Economics from
@@ -160,10 +168,10 @@ permalink: /
         </li>
       </ul>
       <a class="more-link" href="#research">All papers, works in progress and abstracts →</a>
-    </section>
+    </div>
 
     <!-- ================= RESEARCH TAB ================= -->
-    <section id="research" class="tab-panel" role="tabpanel">
+    <div id="research" class="tab-panel" role="tabpanel">
       <h2>Working Papers</h2>
 
       <div class="project">
@@ -261,7 +269,7 @@ permalink: /
           <p>How do people form beliefs about environments too rich to hold in memory? This paper develops and tests a framework in which decision-makers reduce large datasets to a small set of representative "cases"—a mental model—from which beliefs are then formed. In a lab experiment, participants view datasets of 12 items with 3 attributes each, construct 1–3 "guessing aids" summarizing what they observed, and later use only these aids to predict a hidden attribute value for unseen items. Comparing behavior to an optimal clustering (k-medians) benchmark, case selection largely tracks coverage as clustering predicts, but participants over-rely on literally observed and duplicated cases. Predictions track the nearest retained case, but moderates away from distant or extreme values. These deviations do not overturn the clustering benchmark's qualitative predictions about which datasets and statistics are well versus poorly recovered—they exacerbate them, producing worse accuracy for noisy datasets, outliers, extreme values, and higher-order statistical relationships like conditional correlations.</p>
         </div>
       </div>
-    </section>
+    </div>
 
   </div>
 </div>
@@ -351,7 +359,7 @@ function toggleAbstract(id, btn){
   "url": "https://clement-herman.com",
   "sameAs": [
     "https://bsky.app/profile/clemherm.bsky.social",
-    "https://scholar.google.com/scholar?q=Cl%C3%A9ment+Herman"
+    "https://scholar.google.com/citations?user=9imfc4YAAAAJ"
   ]
 }
 </script>
